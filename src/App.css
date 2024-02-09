@@ -1,0 +1,78 @@
+#root {
+  max-width: 1048px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 200vh;
+  width: 100%;
+}
+
+button,
+input {
+  outline: none !important;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.progress-bar {
+  position: absolute;
+  top: -600px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: red;
+  transform-origin: 0%;
+}
+
+.progress-block {
+  position: absolute;
+  top: -600px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #9c9c9c;
+  transform-origin: 0%;
+}
+
+.progress {
+  position: relative;
+  overflow: hidden;
+  height: 1200px;
+  width: 2px;
+}
+
+.icon,
+.icon-2,
+.icon-3 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 48px;
+  left: -10px;
+  background-color: #cacaca;
+  svg {
+    position: relative;
+    top: 10px;
+  }
+
+  svg path {
+    fill: white;
+  }
+  svg circle {
+    fill: white;
+  }
+}
+
+.icon-2 {
+  top: 256px;
+}
+
+.icon-3 {
+  top: 468px;
+}
+
+.block {
+  position: relative;
+}
